@@ -1,0 +1,112 @@
+\documentclass[conference,transmag]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage[utf8]{inputenc}
+\usepackage{blindtext}
+
+\usepackage{float} 
+
+\usepackage[pdftex]{graphicx}
+
+
+\usepackage{subfigure}
+
+
+\title{ \Huge{A Fuzzy Logic Based Animal AI With Dual Behaviours} }
+
+
+
+%-----FOR THE TABLE CONFIGURATION ------
+
+\usepackage{hhline}
+
+
+\usepackage{multicol}
+\usepackage{multirow}
+
+\usepackage{array}
+\newcolumntype{L}{>{\centering\arraybackslash}m{6.26cm}}
+
+\usepackage{longtable}
+
+
+
+%-------------END------------------------
+
+
+
+\author{
+\IEEEauthorblockN{Ertan TURAN \IEEEauthorrefmark{1,2}}
+
+\IEEEauthorblockA{\IEEEauthorrefmark{1}Muğla Sıtkı Koçman Üniversitesi,Teknoloji Fakültesi, Kötekli Yerleşkesi / Muğla,  48000 , Türkiye}
+
+\IEEEauthorblockA{\IEEEauthorrefmark{2}Mugla Sitki Kocman University, Faculty of Technoogy, Kotekli Campus / Mugla ,  Turkey}
+
+}
+
+\date{07 February 2018}
+
+
+
+%----- For Bibliography -------------
+\usepackage[sorting=none]{biblatex}
+\addbibresource{References.bib}
+%------------------------------------
+
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords---}} #1}
+
+%----------- BEGIN -------------------
+%--------- DOCUMENT ------------------
+%-------------------------------------
+
+\begin{document}
+
+\IEEEpubid{\makebox[\columnwidth]{978-1-5386-1501-0/18/\$31.00 \copyright\ 2018 IEEE\hfill}
+\hspace{\columnsep}\makebox[\columnwidth]{}}
+
+\maketitle
+
+%\tableofcontents
+
+\begin{abstract}
+    \input{Texes/abstract.tex}
+\end{abstract}
+
+\keywords{Fuzzy-Logic(FL) , artificial intelligence (AI) , game , simulation , 
+game engine , unity }
+
+\section{Introduction}
+\input{Texes/introduction.tex}
+
+\section{Materials and Methods} \label{MaterialsAndMethods}
+\input{Texes/MaterialsNMethods.tex}
+
+
+\section{Fuzzy-Logic and Fuzzy Set Theory}
+\input{Texes/FuzzyLogicAndFuzzySet.tex}
+
+\section{The Fuzzy Logic Based Simulation}
+\input{Texes/FuzzySimulation.tex}
+
+\section{Conclusion}
+\input{Texes/conclusion.tex}
+
+
+\section{Acknowledgements}
+
+This article was supported by Reo-Tek Simulation, Interactive Presentations And Exhibition Design Co. placed at Middle-East Technical University's Technopolis at Ankara/Turkey .
+
+% \begin{thebibliography}{}
+% \bibitem{defuzzification}
+% P. Dadone, Design optimization of fuzzy logic systems,
+% Dissertation, Electrical Engineering, Virginia Polytechnic
+% Institute and State University, May 18, 2001.
+% \end{thebibliography}
+
+\printbibliography
+
+\end{document}
+
+%----------- END ---------------------
+%--------- DOCUMENT ------------------
+%-------------------------------------
